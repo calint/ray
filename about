@@ -1,4 +1,4 @@
 # framework opengl x11 linux
-g++ -std=c++1y -O0 -g3 -pedantic -Wall -Wextra -Wconversion -c -fmessage-length=0 -o src/ray.o ../src/ray.cpp 
+g++ -std=c++1y -O0 -g3 -pedantic -Wall -Wextra -Wconversion -c -o src/ray.o src/ray.cpp 
 g++ -o ray src/ray.o -lGLU -lglut -lGL 
 
